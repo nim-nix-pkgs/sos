@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-sos-main.flake = false;
+  inputs.src-sos-main.ref   = "refs/heads/main";
   inputs.src-sos-main.owner = "ct-clmsn";
-  inputs.src-sos-main.ref   = "main";
   inputs.src-sos-main.repo  = "nim-sos";
   inputs.src-sos-main.type  = "github";
   
